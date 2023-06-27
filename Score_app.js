@@ -39,7 +39,7 @@ p2.button.addEventListener('click', function () {
 
 winningScoreSelect.addEventListener('change', function () {
     winningScore = parseInt(this.value);
-    reset();
+    reset(); 
 })
 
 resetButton.addEventListener('click', reset)
