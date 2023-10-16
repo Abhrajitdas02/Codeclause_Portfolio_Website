@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = '21051302@gmail.com';
+$siteOwnersEmail = '21051026@kiit.ac.in';
 
 
 if($_POST) {
@@ -52,7 +52,7 @@ if($_POST) {
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
 		
-	} # end if - no validation error
+	} 
 
 	else {
 
@@ -62,7 +62,7 @@ if($_POST) {
 		
 		echo $response;
 
-	} # end if - there was a validation error
+	} 
 
 }
 
